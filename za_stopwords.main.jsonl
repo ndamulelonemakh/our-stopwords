@@ -67,4 +67,20 @@
 {"eng": "then", "zul": "ke", "xho": "ke", "sot": "ke", "nso": "ke", "tsn": "ke", "ven": "huna", "tso": "kale"}
 {"eng": "there", "zul": "lapho", "xho": "apho", "sot": "moo", "nso": "moo", "tsn": "kwa", "ven": "hu", "tso": "kwalaho"}
 {"eng": "these", "zul": "lezi", "xho": "ezi", "sot": "tse tsena", "nso": "tse tsena", "tsn": "tse tsena", "ven": "eḽa", "tso": "leswi"}
-{"eng": "they", "zul": "bona", "xho": "bona", "sot": "bona", "nso": "bona", "tsn":
+{"eng": "they", "zul": "bona", "xho": "bona", "sot": "bona", "nso": "bona", "tsn": "bona", "ven": "vho", "tso": "vona"}
+{"eng": "this", "zul": "le", "xho": "le", "sot": "e", "nso": "se", "tsn": "se", "ven": "iḽi", "tso": "leswi"}
+{"eng": "to", "zul": "ku", "xho": "ukuya", "sot": "ho", "nso": "go", "tsn": "go", "ven": "kha", "tso": "ka"}
+{"eng": "up", "zul": "phezulu", "xho": "phezulu", "sot": "holimo", "nso": "godimo", "tsn": "godimo", "ven": "fhasi", "tso": "ehenhla"}
+{"eng": "very", "zul": "kakhulu", "xho": "kakhulu", "sot": "holo", "nso": "holo", "tsn": "golo", "ven": "hoṱhe", "tso": "hinkwaswo"}
+{"eng": "was", "zul": "baye", "xho": "waye", "sot": "e bile", "nso": "e bile", "tsn": "e bile", "ven": "nga vha", "tso": "a ri na"}
+{"eng": "we", "zul": "thina", "xho": "thina", "sot": "rona", "nso": "rena", "tsn": "rona", "ven": "ashu", "tso": "hina"}
+{"eng": "were", "zul": "baye", "xho": "waye", "sot": "bileng", "nso": "bileng", "tsn": "bileng", "ven": "nga vha", "tso": "a ri na"}
+{"eng": "what", "zul": "ini", "xho": "ini", "sot": "eng", "nso": "eng", "tsn": "eng", "ven": "ni", "tso": "leswi"}
+{"eng": "when", "zul": "nini", "xho": "nini", "sot": "neng", "nso": "neng", "tsn": "neng", "ven": "ri", "tso": "swi"}
+{"eng": "which", "zul": "yiphi", "xho": "yiphi", "sot": "feela", "nso": "feela", "tsn": "fela", "ven": "ne", "tso": "xin'wana"}
+{"eng": "who", "zul": "ubani", "xho": "ubani", "sot": "mang", "nso": "mang", "tsn": "mang", "ven": "nnyi", "tso": "mani"}
+{"eng": "will", "zul": "uzoba", "xho": "za kuba", "sot": "tla ba", "nso": "tla ba", "tsn": "tla ba", "ven": "nga vha", "tso": "ta ku va"}
+{"eng": "with", "zul": "na", "xho": "ne", "sot": "le", "nso": "le", "tsn": "le", "ven": "na", "tso": "na"}
+{"eng": "would", "zul": "uzoba", "xho": "za kuba", "sot": "ka ba", "nso": "ka ba", "tsn": "ka ba", "ven": "nga vha", "tso": "ta ku va"}
+{"eng": "you", "zul": "wena", "xho": "wena", "sot": "wena", "nso": "wena", "tsn": "wena", "ven": "iwe", "tso": "wena"}
+{"eng": "your", "zul": "yakho", "xho": "yakho", "sot": "ya hao", "nso": "ya gago", "tsn": "ya gago", "ven": "yawe", "tso": "yakwe"}
