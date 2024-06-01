@@ -46,3 +46,40 @@ def get_stopwords(language_code: str):
             stop_words.append(json.loads(line.strip()))
 
     return stop_words
+
+
+def cli():
+    try:
+        if args.command == 'list':
+            available_languages = list_languages()
+            print("Available languages:")
+            for lang in available_languages:
+                print(f" - {lang}")
+
+        elif args.command == 'get':
+            stopwords = get_stopwords(args.language_code)
+            for s in stopwords:
+                print(s)
+        else:
+            parser.print_help()
+    except Exception as e:
+        print(f"Error: {str(e)}")
+
+if __name__ == "__main__":
+    import argparse
+
+    parser = argparse.ArgumentParser(description="CLI for accessing multilingual stop words for South African Bantu languages.")
+    subparsers = parser.add_subparsers(dest='command', title='Commands', description='Valid commands')
+    list_parser = subparsers.add_parser('list', help='List all available languages')
+    get_parser = subparsers.add_parser('get', help='Get stop words for a specific language')
+    get_parser.add_argument('language_code', type=str, help='Language code (e.g., "ven" for Venda)')
+
+    args = parser.parse_args()
+    cli()
+
+
+"""Usage:
+
+our_stopwords list
+our_stopwords get ven
+"""

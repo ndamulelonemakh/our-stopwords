@@ -9,6 +9,9 @@ setup(
        'pandas',
        'scikit-learn'
     ],
+    package_data={
+        'our_stopwords': ['data/*.jsonl'],
+    },
     author='Ndamulelo Nemakhavhani',
     author_email='endeesa@yahoo.com',
     description='A package for accessing multilingual stop words for South African Bantu Languages.',
@@ -20,4 +23,9 @@ setup(
         'License :: OSI Approved :: MIT License',
         'Operating System :: OS Independent',
     ],
+    entry_points={
+        'console_scripts': [
+            'our_stopwords = our_stopwords.__main__:cli'
+        ]
+    },
 )
