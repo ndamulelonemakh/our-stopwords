@@ -5,7 +5,6 @@ import json
 
 
 DATA_DIR = os.path.join(os.path.dirname(__file__), 'data')
-MAIN_REF_URL = "https://raw.githubusercontent.com/ndamulelonemakh/our-stopwords/feature/pip-package/za_stopwords.main.jsonl"
 
 
 def list_available_languages():
@@ -64,6 +63,7 @@ def cli():
             parser.print_help()
     except Exception as e:
         print(f"Error: {str(e)}")
+
 
 if __name__ == "__main__":
     import argparse
