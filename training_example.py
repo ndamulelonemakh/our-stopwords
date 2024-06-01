@@ -24,6 +24,11 @@ from sklearn.linear_model import LogisticRegression
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import accuracy_score
 
+
+# Run the following command on Powershell or Bash to download the stop words JSON lines file from GitHub:
+# curl -O https://raw.githubusercontent.com/your-username/multilingual-stop-words/main/stop_words.jsonl
+# Alternatively, you can download it manually
+
 # Load stop words from JSON lines file
 stop_words = []
 with open('stop_words.jsonl', 'r', encoding='utf-8') as file:
