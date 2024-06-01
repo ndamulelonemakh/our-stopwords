@@ -19,7 +19,7 @@ import json
 
 # Load the stop words from the JSON lines file
 stop_words = []
-with open('stop_words.jsonl', 'r', encoding='utf-8') as file:
+with open('za_stopwords.main.jsonl', 'r', encoding='utf-8') as file:
     for line in file:
         stop_words.append(json.loads(line.strip()))
 
