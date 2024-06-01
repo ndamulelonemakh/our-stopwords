@@ -7,8 +7,58 @@
 
 * We present a list of auto-translated stopwords from English and adapt them to native [South African Bantu Languages](https://pubs.cs.uct.ac.za/id/eprint/1334/1/icadl_2019_banturecognition.pdf)
 
+
+## Installation
+
+You can install the package via pip:
+
+```bash
+pip install -U our-stopwords
+```
+
+## Quick Start
+
+* The are two ways to use the installed version of `our-stopwords`
+
+
+### 1. Using as a Python Library
+
+```python
+import our_stopwords
+
+# List all available languages
+available_languages = our_stopwords.list_available_languages()
+print("Available languages:", available_languages)
+
+# Get the list of stopwords for a specific language
+stopwords = our_stopwords.get_stopwords('ven')
+print(stopwords)
+# Output: [{'eng': 'a', 'ven': 'a'}, {'eng': 'about', 'ven': 'nga'}, {'eng': 'after', 'ven': 'mulweli'}, ...]
+```
+
+### 2. Usage from the CLI
+
+### List Available Languages
+
+You can list all available languages supported by the package:
+
+```bash
+our_stopwords list
+```
+
+### Get Stop Words for a Language
+
+To get stop words for a specific language, use the following command (replace `ven` with the language code of your choice):
+
+```bash
+our_stopwords get ven
+```
+
+
+
+
   
-## Usage
+## Manual Usage
 
 - The data is provided in [JSON Lines](https://jsonlines.org/) format. Here is an example of using the stopwords in Python:
 
